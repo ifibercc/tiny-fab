@@ -11,15 +11,24 @@
 </head>
 
 <body>
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large" id="zoomBtn">Z</a>
-    <ul>
-      <li><a class="btn-floating btn-sm red scale-transition scale-out"><i class="iconfont icon-person"></i></a></li>
-      <li><a class="btn-floating btn-sm yellow scale-transition scale-out"><i class="iconfont icon-doc"></i></a></li>
-      <li><a class="btn-floating btn-sm green scale-transition scale-out"><i class="iconfont icon-tangram"></i></a></li>
-      <li><a class="btn-floating btn-sm blue scale-transition scale-out"><i class="iconfont icon-report"></i></a></li>
-      <li><a class="btn-floating btn-sm purple scale-transition scale-out"><i class="iconfont icon-feedback"></i></a></li>
+  <div class="zoom">
+    <a class="zoom-fab zoom-btn-large" id="zoomBtn">Z</a>
+    <ul class="zoom-menu">
+      <li><a class="zoom-fab zoom-btn-sm zoom-btn-person scale-transition scale-out"><i class="iconfont icon-person"></i></a></li>
+      <li><a class="zoom-fab zoom-btn-sm zoom-btn-doc scale-transition scale-out"><i class="iconfont icon-doc"></i></a></li>
+      <li><a class="zoom-fab zoom-btn-sm zoom-btn-tangram scale-transition scale-out"><i class="iconfont icon-tangram"></i></a></li>
+      <li><a class="zoom-fab zoom-btn-sm zoom-btn-report scale-transition scale-out"><i class="iconfont icon-report"></i></a></li>
+      <li><a class="zoom-fab zoom-btn-sm zoom-btn-feedback scale-transition scale-out"><i class="iconfont icon-feedback"></i></a></li>
     </ul>
+    <div class="zoom-card scale-transition scale-out">
+      <ul>
+        <li>1test</li>
+        <li>2test</li>
+        <li>3test</li>
+        <li>4test</li>
+        <li>5test</li>
+      </ul>
+    </div>
   </div>
   <script src="src/js/jquery-3.1.0.min.js"></script>
   <script src="src/js/velocity.min.js"></script>
