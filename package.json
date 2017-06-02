@@ -1,0 +1,25 @@
+{
+  "name": "tiny-fab",
+  "version": "0.0.1",
+  "description": "a tiny folating action button plugin based on jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifibercc/tiny-fab.git"
+  },
+  "author": "zoom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifibercc/tiny-fab/issues"
+  },
+  "homepage": "https://github.com/ifibercc/tiny-fab#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
