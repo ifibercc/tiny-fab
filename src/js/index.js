@@ -15,7 +15,7 @@ $('.zoom-btn-sm').click(function() {
   if (btn.hasClass('zoom-btn-person')) {
     card.css('background-color', '#d32f2f');
   } else if (btn.hasClass('zoom-btn-doc')) {
-    card.css('background-color', '#ffeb3b');
+    card.css('background-color', '#fbc02d');
   } else if (btn.hasClass('zoom-btn-tangram')) {
     card.css('background-color', '#388e3c');
   } else if (btn.hasClass('zoom-btn-report')) {
